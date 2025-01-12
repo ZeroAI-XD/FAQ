@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://faq.zeroai.top/FAQ/sitemap.xml
