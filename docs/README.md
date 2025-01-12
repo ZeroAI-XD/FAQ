@@ -1,35 +1,33 @@
----
-lang: 'zh-CN'
-title: 页面的标题
-home: true
-# title: Home
-heroImage: https://vuejs.press/images/hero.png
-actions:
-  - text: Get Started
-    link: /getting-started.html
-    type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
-    type: secondary
+# 常见问题解答
 
-features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+## 1. 本网站支持哪些语言?
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
----
+目前网站仅支持英语。其他语言模型正在开发，敬请期待。
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
+## 2. 充值的额度有效期是多少？
 
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
+额度永久有效，无失效日期，请放心购买使用。
+
+## 3. 使用降AI功能时，有哪些注意事项?
+
+为了确保最佳的降AI效果，请您注意以下两点：
+
+1. 为保证高质量的重写结果，每次提交至对话框的文字应控制在50到300词之间。
+2. 请将文章中所有疑似由AI生成的部分全部提交至对话框进行重写。由于文章整体的AI属性与上下文紧密关联，切忌仅重写部分段落，而是全文有AI的部分都要重写。
+
+>举例，您目前有一篇AI率为100%的2000词文章，那么您需要将全部的2000词全部放到zeroai.top中降ai。由于AI率检测与上下文AI逻辑均有关系，因此请勿挑选部分段落/句子降ai。
+
+## 4. 如果我的段落超过了300词的限制，该怎么降AI？
+
+若您的段落超过300词限制，请将该段落进行拆分，分批次降AI。
+>例如，您的段落为400词，可拆为2个200词；段落为800词，可以拆为300、300、200。拆分方式随意，只要每次降ai的词数在50-300即可。
+
+## 5. 降AI后，我应该在哪里进行查重?
+
+我们建议您使用Turnitin平台进行查重。在本网站充值的用户可享受一次免费的查重服务，您只需在客服工作时间联系客服、发送您需检测的文档即可（PDF或word）。
+近期会上线网站查重查ai服务，敬请期待。
+
+## 6. 售后相关问题
+
+若出现希望售后的情况，请联系客服留言。客服工作时间（北京时间9:00-23:00）将会提供售后服务。

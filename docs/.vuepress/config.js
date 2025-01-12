@@ -4,16 +4,18 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   base: '/FAQ/',
-  lang: 'en-US',
+  lang: 'en-ZH',
 
-  title: 'VuePress',
+  title: 'ZeroAI',
   description: 'My first VuePress Site',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/images/logo1.svg',
+    // lastUpdated: false, // 禁用最后更新时间
+    contributors: false, // 禁用贡献者
+    hostname: 'https://faq.zeroai.top',
 
-    navbar: ['/', '/get-started'],
+    // navbar: ['/', '/get-started'],
   }),
-
   bundler: viteBundler(),
 })

@@ -1,9 +1,9 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/zhaoxinhao/vueProject/vuepress-starter/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"页面的标题"} }],
-  ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"/Users/zhaoxinhao/vueProject/vuepress-starter/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":"常见问题解答"} }],
-  ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/zhaoxinhao/vueProject/vuepress-starter/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
+  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/zhaoxinhao/goProject/zeroai/FAQ/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"常见问题解答"} }],
+  ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"/Users/zhaoxinhao/goProject/zeroai/FAQ/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":"常见问题解答"} }],
+  ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/zhaoxinhao/goProject/zeroai/FAQ/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 
 if (import.meta.webpackHot) {
